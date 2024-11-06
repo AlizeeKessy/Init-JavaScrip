@@ -226,6 +226,7 @@
 // } alert(iParticipation);
 
 
+/*LES BOUCLES*/
 
 
 // 1 - Saisie
@@ -252,10 +253,83 @@
 // Ecrivez un programme qui affiche les nombres inférieurs à N.
 
 
-let e = 0;
-let N = parseInt(prompt("Entrer un nombre"));
-if (N>=e) {
-    console.log()
+/*let N = parseInt(prompt("Saisir"));
+ 
+while(N>0){
+    console.log(N--);
+    alert(N);
+}*/
+
+
+
+
+/*let x = 9;
+
+do {
+    console.log(x);
+    alert("x : " + x);
+    x--;
 }
-alert(e--);
+while (x>0);*/
+
+
+/*3 - Somme des entiers inférieurs à N
+Ecrivez un programme qui affiche la somme des nombres inférieurs à N.*/
+
+/*let N = parseInt(prompt("Entrer un nombre"));
+let somme = 0;
+
+while (N > 0) {
+    console.log(N--);
+    console.log(somme +=N);
+
+}
+alert(somme +=N);*/
+
+
+/*4 - Somme d'un intervalle
+Ecrivez un programme qui saisit deux nombres n1 et n2 
+et qui calcul ensuite la somme des entiers de n1 à n2.*/
+
+/*let n1 = parseInt(prompt("Entrer un nombre"));
+let n2 = parseInt(prompt("Entrer un nombre"));
+let somme = (n1+n2)-2;
+
+while (n1 > 0 && n2 > 0) {
+    console.log(n1--);
+    console.log(n2--);
+    console.log(somme);
+
+}
+alert(somme)*/
+
+
+/*5 - Moyenne
+Ecrire un programme qui saisit des entiers et en affiche 
+la somme et la moyenne (on arrête la saisie avec la valeur 0)*/
+
+/*let n1 = parseInt(prompt("Entrer un nombre"));
+let n2 = parseInt(prompt("Entrer un nombre"));
+let somme = n1 + n2;
+let moyenne = somme / 2;
+
+do {
+    console.log(n1--, n2--);
+    console.log(somme);
+    console.log(moyenne);
+}
+while (n1 > 0 && n2 > 0)
+alert(somme);
+alert(moyenne);*/
+
+
+/*LES FONCTIONS*/
+
+function multiplication(x, y) {
+    alert(x * y);
+    console.log(x * y);
+    return x * y;
+}
+var resultat = multiplication(3, 4);
+alert(resultat)
 
